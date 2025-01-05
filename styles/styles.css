@@ -1,7 +1,17 @@
 h1 {
   font-family: "Londrina Shadow", serif;
+  font-size: 96px;
 }
 
+h2 {
+  font-family: "Newsreader", serif;
+  font-size: 64px;
+}
+
+h3 {
+  font-family: "Newsreader", serif;
+  font-size: 48px;
+}
 /*font-family: "Londrina Shadow", serif;
 font-family: "Newsreader", serif;
 font-family: "Inter", serif; */
