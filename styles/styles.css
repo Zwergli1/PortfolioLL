@@ -36,6 +36,20 @@ h3 {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.hero-projects {
+  background: var(--branding-color);
+  padding: 160px 20px 50px 20px;
+  text-align: center;
+}
+
+.project-container h2 {
+  font-size: 36px;
+}
+
+.project-container p {
+  font-family: "Inter", serif;
+}
 /*font-family: "Londrina Shadow", serif;
 font-family: "Newsreader", serif;
 font-family: "Inter", serif; */
