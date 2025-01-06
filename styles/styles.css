@@ -1,16 +1,40 @@
+:root {
+  --branding-color: #faeaf9;
+  --contrast-color: #2c2c2c;
+  --heading-font-family: "Londrina Shadow", serif;
+  --text-font-family: "Newsreader", serif;
+}
+
 h1 {
-  font-family: "Londrina Shadow", serif;
+  font-family: var(--heading-font-family);
   font-size: 96px;
+  margin: 0;
+  padding-bottom: 40px;
 }
 
 h2 {
-  font-family: "Newsreader", serif;
-  font-size: 64px;
+  font-family: var(--text-font-family);
+  font-size: 48px;
 }
 
 h3 {
-  font-family: "Newsreader", serif;
-  font-size: 48px;
+  font-family: var(--text-font-family);
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero {
+  background: var(--branding-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.btn-branding {
+  background: var(--contrast-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 /*font-family: "Londrina Shadow", serif;
 font-family: "Newsreader", serif;
