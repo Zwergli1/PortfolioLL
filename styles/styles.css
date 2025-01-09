@@ -49,7 +49,9 @@ h3 {
 
 .project-container p {
   font-family: "Inter", serif;
+  line-height: 1.5;
 }
+
 /*font-family: "Londrina Shadow", serif;
 font-family: "Newsreader", serif;
 font-family: "Inter", serif; */
