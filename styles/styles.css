@@ -56,6 +56,9 @@ h3 {
   line-height: 1.5;
 }
 
+a {
+  color: var(--contrast-color);
+}
 /*font-family: "Londrina Shadow", serif;
 font-family: "Newsreader", serif;
 font-family: "Inter", serif; */
