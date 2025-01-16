@@ -91,3 +91,16 @@ a {
   background: var(--branding-color);
   border-radius: 4px;
 }
+
+.logo {
+  max-width: 100px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+}
