@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #faeaf9;
+  --branding-color: #fae4fa;
   --contrast-color: #2c2c2c;
   --heading-font-family: "Londrina Shadow", serif;
   --text-font-family: "Newsreader", serif;
@@ -96,11 +96,34 @@ a {
   max-width: 100px;
 }
 
+nav {
+  padding: 0;
+}
+
 nav li {
   display: inline;
   list-style: none;
+  line-height: 80px;
+  margin-left: 20px;
 }
 
 nav ul {
   padding: 0;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--contrast-color);
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
+
+nav li.active {
+  text-decoration: underline;
+  font-weight: bold;
 }
