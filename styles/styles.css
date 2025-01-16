@@ -89,8 +89,5 @@ a {
 
 .pink-variation {
   background: var(--branding-color);
+  border-radius: 4px;
 }
-
-/*font-family: "Londrina Shadow", serif;
-font-family: "Newsreader", serif;
-font-family: "Inter", serif; */
