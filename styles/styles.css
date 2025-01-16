@@ -81,8 +81,9 @@ a {
   line-height: 30px;
 }
 
-.hero-pic {
+/*.hero-pic {
   padding: 160px 20px 50px 20px;
+  border-radius: 4px;
 }
 /*font-family: "Londrina Shadow", serif;
 font-family: "Newsreader", serif;
