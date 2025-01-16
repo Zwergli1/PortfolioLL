@@ -93,9 +93,14 @@ a {
 }
 
 .logo {
-  max-width: 100px;
+  max-height: 100px;
 }
 
+.logo-small {
+  max-height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+}
 nav {
   padding: 0;
 }
@@ -117,13 +122,9 @@ nav a {
   color: var(--contrast-color);
 }
 
-nav a:hover {
-  text-decoration: underline;
-  font-weight: bold;
-  transition: all 150ms ease-in-out;
-}
-
+nav a:hover,
 nav li.active {
   text-decoration: underline;
   font-weight: bold;
+  transition: all 150ms ease-in-out;
 }
