@@ -60,21 +60,21 @@ a {
   color: var(--contrast-color);
 }
 
-.about-hero-content {
+.container-content {
   padding: 160px 0px 50px 0px;
 }
 
-.about-hero h1 {
+.container h1 {
   font-size: 64px;
 }
 
-.about-hero h2 {
+.container h2 {
   font-size: 20px;
   font-family: "Inter", serif;
   font-weight: 500;
 }
 
-.about-hero p {
+.container p {
   font-size: 16px;
   font-family: "Inter", serif;
   font-weight: 400;
