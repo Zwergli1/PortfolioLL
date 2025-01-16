@@ -26,6 +26,7 @@ h3 {
 h4 {
   font-family: var(--text-font-family);
   font-size: 24px;
+  margin-top: 20px;
 }
 
 .hero {
@@ -84,6 +85,10 @@ a {
   font-family: "Inter", serif;
   font-weight: 400;
   line-height: 30px;
+}
+
+.pink-variation {
+  background: var(--branding-color);
 }
 
 /*font-family: "Londrina Shadow", serif;
