@@ -92,6 +92,11 @@ a {
   border-radius: 4px;
 }
 
+.pink-variation a {
+  text-decoration: none;
+  color: var(--contrast-color);
+}
+
 .logo {
   max-height: 100px;
 }
@@ -123,25 +128,21 @@ nav a {
 }
 
 nav a:hover,
-nav li.active {
+nav li.active,
+nav li a.active,
+.email-link:hover,
+.pink-variation a:hover {
   text-decoration: underline;
   font-weight: bold;
   transition: all 150ms ease-in-out;
 }
 
-nav li a.active {
-  text-decoration: underline;
-  font-weight: bold;
-  transition: all 150ms ease-in-out;
-}
 .email-link {
   color: var(--contrast-color);
   padding: 20px;
   text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: underline;
-  font-weight: bold;
-  transition: all 150ms ease-in-out;
+footer p {
+  font-size: 12px;
 }
