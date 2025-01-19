@@ -31,7 +31,7 @@ h4 {
 
 .hero {
   background: var(--branding-color);
-  padding: 160px 20px;
+  padding: 160px 20px 40px 20px;
   text-align: center;
 }
 
@@ -129,6 +129,11 @@ nav li.active {
   transition: all 150ms ease-in-out;
 }
 
+nav li a.active {
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
 .email-link {
   color: var(--contrast-color);
   padding: 20px;
