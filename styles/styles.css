@@ -128,3 +128,15 @@ nav li.active {
   font-weight: bold;
   transition: all 150ms ease-in-out;
 }
+
+.email-link {
+  color: var(--contrast-color);
+  padding: 20px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
